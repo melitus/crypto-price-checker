@@ -1,7 +1,6 @@
 import React from 'react';
 
-
-import { getCoinDataApiCall } from "../../api/index";
+import { API_URL } from '../../api/apiPath';
 import { handleResponse } from '../../utils/helper';
 import Pagination from './Pagination';
 import Loading from '../../components/Loader/Loading';
@@ -35,8 +34,8 @@ class List extends React.Component {
     this.setState({ loading: true });
 
     // Fetch crypto currency data from API with page and perPage parameters
-    getCoinDataApiCall()
-    .then(handleResponse)
+    fetch(`${API_URL}/cryptocurrencies/?page=${page}&perPage=${perPage}`)
+      .then(handleResponse)
       .then((data) => {
         // Set received data in components state
         // Clear error if any and set loading to false

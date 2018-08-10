@@ -17,7 +17,7 @@ const Table = (props) => {
             <th>Price</th>
             <th>Market Cap</th>
             <th>24H Change</th>
-          </tr>
+          </tr>z
         </thead>
         <tbody className="Table-body">
           {currencies.map(currency =>
