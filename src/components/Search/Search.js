@@ -2,8 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { withRouter } from 'react-router-dom';
 
-import { handleResponse } from '../../helpers.js';
-import Loading from '../common/Loading';
+import { handleResponse } from '../../utils/helper';
+import Loading from '../Loader/Loading';
 import { API_URL } from '../../config';
 import './Search.css';
 
