@@ -1,8 +1,8 @@
 import React from 'react';
 
-import { API_URL } from '../../config';
-import { handleResponse, renderChangePercent } from '../../helpers.js';
-import Loading from '../common/Loading';
+import { API_URL } from '../../api/index';
+import { handleResponse, renderChangePercent } from '../../utils/helper';
+import Loading from '../../components/Loader/Loading';
 import './Detail.css';
 
 class Detail extends React.Component {
