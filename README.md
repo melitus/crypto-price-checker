@@ -6,7 +6,7 @@ This is to demo how to build coinmarketcap with react
 # crypto-price-checker    
 ![crypto-price-checker](crypto.png?raw=true "crypto-price-checker")
 
-### <a href="https://crypto-price-monitor.herokuapp.com//">LIVE DEMO</a> 
+### <a href="https://crypto-price-monitor.herokuapp.com/">LIVE DEMO</a> 
 
 # Start building your own website
 This repo is created to demostrate how to build personal website with React.
