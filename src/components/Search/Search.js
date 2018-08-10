@@ -3,8 +3,8 @@ import PropTypes from 'prop-types';
 import { withRouter } from 'react-router-dom';
 
 import { handleResponse } from '../../utils/helper';
-import Loading from '../Loader/Loading';
-import { API_URL } from '../../config';
+import Loading from '../../components/Loader/Loading';
+import { API_URL } from '../../api/index';
 import './Search.css';
 
 class Search extends React.Component {
