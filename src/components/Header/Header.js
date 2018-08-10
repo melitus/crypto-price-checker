@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import Search from './Search';
-import logo from '../../assets/images/logo';
+// import Search from '../Search/Search';
+import logo from '../../assets/images/logo.png';
 import './Header.css';
 
 const Header = () => {
@@ -12,7 +12,7 @@ const Header = () => {
         <img src={logo} alt="logo" className="Header-logo" />
       </Link>
 
-      <Search />
+      
     </div>
   );
 }
